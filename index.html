@@ -4,9 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/styles.css">
     <title>MemoGame</title>
 </head>
 <body>
-    
+    <main>
+        <section class="section1">
+            <h1>MemoGame</h1>
+            <table>
+                <tr>
+                    <td><button id="1" onclick="unlock(1)">Pablo</button></td>
+                    <td><button id="2" onclick="unlock(2)">Pablo</button></td>
+                    <td><button id="3" onclick="unlock(3)">Pablo</button></td>
+                    <td><button id="4" onclick="unlock(4)">Pablo</button></td>
+                </tr>
+                <tr>
+                    <td><button id="5" onclick="unlock(5)">Pablo</button></td>
+                    <td><button id="6" onclick="unlock(6)">Pablo</button></td>
+                    <td><button id="7" onclick="unlock(7)">Pablo</button></td>
+                    <td><button id="8" onclick="unlock(8)">Pablo</button></td>
+                </tr>
+                <tr>
+                    <td><button id="9" onclick="unlock(9)">Pablo</button></td>
+                    <td><button id="10"onclick="unlock(10)">Pablo</button></td>
+                    <td><button id="11"onclick="unlock(11)">Pablo</button></td>
+                    <td><button id="12"onclick="unlock(12)">Pablo</button></td>
+                </tr>
+                <tr>
+                    <td><button id="13" onclick="unlock(13)">Pablo</button></td>
+                    <td><button id="14" onclick="unlock(14)">Pablo</button></td>
+                    <td><button id="15" onclick="unlock(15)">Pablo</button></td>
+                    <td><button id="16" onclick="unlock(16)">Pablo</button></td>
+                </tr>
+            </table>
+        </section>
+        <section class="section2">
+            <h2 id= "success" class="stats">Success</h2>
+            <h2 id= "timeremaining" class="stats">Time: 30 seconds</h2>
+            <h2 id= "moves" class="stats">Moves: 0</h2>
+        </section>
+    </main>
+    <footer>
+        <p>Game developed by <a href="https://www.linkedin.com/in/camacho-alvaro">Alvaro Camacho</a></p>
+    </footer>
+
+    <script src="assets/app.js"></script>
 </body>
 </html>
